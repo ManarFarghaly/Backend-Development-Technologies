@@ -2,16 +2,15 @@
 
 ## Table of Contents
 
-* [Introduction](#Introduction)
-* [Classification of Database Management Systems](#classification-of-database-management-systems)
-* [Schema Design](#schema-design)
-* [Best practices for data storage and retrieval](#best-practices-for-data-storage-and-retrieval)
+* [Introduction](#introduction)
+* [Overview](#overview)
+* [Node.js Vs PHP](#node.js-vs-php)
 
 <!-- ---------------------------------------------------------------------- -->
 
 ## Introduction
 
-Backend development is the unsung hero of the digital world. Think of it as the engine of a car; it's invisible to the passengers but crucial for the car to function.
+Backend development is the unsung hero of the digital world. Think of it as the engine of a car, it's invisible to the passengers but crucial for the car to function.
 
 Backend technologies are the programming languages, frameworks, and databases that developers use to build the server-side logic of an application. This includes everything from processing user requests, managing data storage, and ensuring security to powering the features users see on the front end.
 
@@ -182,7 +181,6 @@ This stays mostly the same as the Node.js example, with the JavaScript code conn
 
  - **Less Scalable:** PHP applications can struggle with high volumes of concurrent connections in real-time scenarios.
 
-
 This is a basic example. Real-world chat applications would involve additional features like user authentication, private messaging, group chats, and more. However, this demonstrates the core concept of real-time communication using Node.js and Socket.IO.
 
 2. **Faster Server Connection** 
@@ -255,7 +253,7 @@ server.listen(3000, () => {
 
 In this Node.js example, the server can handle multiple requests simultaneously while waiting for the simulated long-running task to complete.
 
-<img src="https://www.simform.com/wp-content/uploads/2020/10/NodejsvsPHPSpeed.jpeg" width="400" height="400">
+<img src="https://www.simform.com/wp-content/uploads/2020/10/NodejsvsPHPSpeed.jpeg" width="700" height="300">
 
 3. **Flexibility**
 
@@ -516,14 +514,9 @@ Both ecosystems have their strengths and weaknesses. The choice between Node.js 
 
 Prefer Node.js over PHP for enterprise web dev for specific features, stick to PHP otherwise.
 
-1. Real-time applications such as instant messengers
+1. **Development Efficiency:** Node.js is commonly used with MongoDB, ExpressJS, and AngularJS for developing dynamic single-page applications. It enhances development ease and performance in this stack.
 
-2. A dynamic single page application
-
-4. **Development Efficiency:**Node.js is commonly used with MongoDB, ExpressJS, and AngularJS for developing dynamic single-page applications. It enhances development ease and performance in this stack.
-
-5. **High Speed and Consistent Callback from Servers:** Node.js web apps excel in performance by maintaining constant server requests. Its non-blocking asynchronous design boosts speed, making it ideal for quick-paced projects.
-
+2. **High Speed and Consistent Callback from Servers:** Node.js web apps excel in performance by maintaining constant server requests. Its non-blocking asynchronous design boosts speed, making it ideal for quick-paced Real-time applications.
 
 ### When to Choose PHP Over Node.js?
 
@@ -546,7 +539,5 @@ So it all depends on the requirements of you Project.
 ## References
 
 * [RadixWeb](https://radixweb.com/blog/node-js-vs-php)
-* [SIMFORM] (https://www.simform.com/blog/nodejs-vs-php/)
-* [NodeJS] (https://nodejs.org/en/learn/asynchronous-work overview-of-blocking-vs-non-blocking) 
-* 
-* 
+* [SIMFORM](https://www.simform.com/blog/nodejs-vs-php/)
+* [MoldStud](https://moldstud.com/articles/p-the-role-of-php-in-content-management-systems-cms-development#:~:text=PHP%20is%20known%20for%20its%20simplicity%2C%20flexibility%2C%20and%20robustness%2C,web%20applications%20such%20as%20CMS.)
