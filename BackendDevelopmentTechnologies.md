@@ -4,7 +4,7 @@
 
 -   [Introduction](#introduction)
 -   [Overview](#overview)
--   [Node.js Vs PHP](#node-js-vs-php)
+-   [Node.js Vs PHP](#nodejs-vs-php)
     -   [What is Node JS?](#what-is-node-js)
     -   [What is PHP?](#what-is-php)
     -   [Comparison according to different features](#comparison-according-to-different-features)
@@ -255,6 +255,9 @@ The key to understanding this code lies in the asynchronous nature of fs.readFil
 Once the file is read (or an error occurs), the callback function provided to fs.readFile is executed.
 
 The response is sent to the original client.This asynchronous pattern allows the server to efficiently handle multiple requests concurrently without blocking the main thread while waiting for file I/O operations to complete.
+
+<img src="https://www.simform.com/wp-content/uploads/2020/10/NodejsvsPHPSpeed.jpeg" width="700" height="300">
+
 
 #### Flexibility
 
@@ -611,3 +614,4 @@ So it all depends on the requirements of you Project.
 -   [RadixWeb](https://radixweb.com/blog/node-js-vs-php)
 -   [SIMFORM](https://www.simform.com/blog/nodejs-vs-php/)
 -   [MoldStud](https://moldstud.com/articles/p-the-role-of-php-in-content-management-systems-cms-development#:~:text=PHP%20is%20known%20for%20its%20simplicity%2C%20flexibility%2C%20and%20robustness%2C,web%20applications%20such%20as%20CMS.)
+-   [Kinsta](https://kinsta.com/blog/node-js-vs-php/)
